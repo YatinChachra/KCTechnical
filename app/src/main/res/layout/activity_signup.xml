@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/signup_padding"
+    android:background="@color/backgroundSignup"
+    tools:context="com.example.android.checkdialog.MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="@dimen/signup_padding"
+        android:background="@color/backgroundSignup">
+
+
+        <EditText
+            android:id="@+id/firstname"
+            android:inputType="textShortMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/margin_signup_top"
+            android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+            android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+            android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+            android:hint="First Name"
+            android:textColor="@color/editTextHint"
+            android:textColorHint="@color/editTextHint"
+            android:backgroundTint="@color/editTextLine"/>
+
+        <EditText
+            android:id="@+id/lastname"
+            android:inputType="textShortMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/margin_signup_top"
+            android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+            android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+            android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+            android:hint="Last Name"
+            android:textColor="@color/editTextHint"
+            android:textColorHint="@color/editTextHint"
+            android:backgroundTint="@color/editTextLine"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/emailid"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_signup_top"
+        android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+        android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+        android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+        android:hint="Email Id"
+        android:textColor="@color/editTextHint"
+        android:textColorHint="@color/editTextHint"
+        android:backgroundTint="@color/editTextLine"/>
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_signup_top"
+        android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+        android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+        android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:textColor="@color/editTextHint"
+        android:textColorHint="@color/editTextHint"
+        android:backgroundTint="@color/editTextLine"/>
+    <EditText
+        android:id="@+id/cpassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_signup_top"
+        android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+        android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+        android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+        android:fontFamily="sans-serif"
+        android:hint="Confirm Password"
+        android:textColor="@color/editTextHint"
+        android:textColorHint="@color/editTextHint"
+        android:backgroundTint="@color/editTextLine"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/backgroundSignup">
+
+        <CheckBox
+            android:id="@+id/notify_me_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_signup_top"
+            android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+            android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+            android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+            android:theme="@style/WhiteCheck"
+            android:button="@drawable/customcheckboxtandc"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/signup_padding"
+            android:background="@color/backgroundSignup">
+
+            <TextView
+                android:text="By Signing Up , you agree to our"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/tAndC"
+                android:layout_marginTop="@dimen/margin_signup_top"
+                android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+                android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+                android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+                android:textSize="@dimen/textsize_tandc"/>
+
+            <TextView
+            android:id="@+id/tandclink"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/tAndC"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="@dimen/margin_signup_bottom_left_right"
+                android:layout_marginRight="@dimen/margin_signup_bottom_left_right"
+                android:layout_marginBottom="@dimen/margin_signup_bottom_left_right"
+                android:textSize="@dimen/textsize_tandc"/>
+
+
+        </LinearLayout>
+
+
+
+
+     </LinearLayout>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SIGN UP"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/signupButton"
+        />
+
+</LinearLayout>

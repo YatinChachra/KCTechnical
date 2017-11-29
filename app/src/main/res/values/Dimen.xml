@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <dimen name="signup_padding">5dp</dimen>
+        <dimen name="margin_signup_top">4dp</dimen>
+        <dimen name="margin_signup_bottom_left_right">4dp</dimen>
+        <dimen name="textsize_tandc">15sp</dimen>
+
+
+</resources>

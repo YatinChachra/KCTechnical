@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BDBDBD</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundSignup">#FFFF</color>
+    <color name="editTextLine">#424242</color>
+    <color name="editTextHint">#424242</color>
+    <color name="signupButton">#F44336</color>
+    <color name="createACButton">#F44336</color>
+    <color name="tAndC">#424242</color>
+    <color name="checkBoxTANDC">#76FF03</color>
+</resources>

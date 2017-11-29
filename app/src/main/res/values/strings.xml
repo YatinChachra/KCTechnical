@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CheckDialog</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="tandc">By SigninUp , You agree to our Terms and Conditions</string>
+
+
+</resources>
